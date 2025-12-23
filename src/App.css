@@ -1,0 +1,74 @@
+.app-container {
+  width: 420px;
+  padding: 25px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+  text-align: center;
+  color: #2c3e50;
+}
+
+h3 {
+  margin-top: 20px;
+  color: #34495e;
+}
+
+input,
+textarea {
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+textarea {
+  height: 80px;
+  resize: none;
+}
+
+button {
+  width: 100%;
+  margin-top: 12px;
+  padding: 10px;
+  background: #3498db;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #2980b9;
+}
+
+.ticket-card {
+  background: #f8f8f8;
+  margin-top: 12px;
+  padding: 12px;
+  border-left: 5px solid #3498db;
+  border-radius: 6px;
+}
+
+.status-open {
+  color: orange;
+}
+
+.status-in-progress {
+  color: goldenrod;
+}
+
+.status-resolved {
+  color: green;
+}
+
+.assign-btn {
+  background: #8e44ad;
+}
+
+.assign-btn:hover {
+  background: #732d91;
+}
